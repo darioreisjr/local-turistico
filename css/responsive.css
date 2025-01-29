@@ -1,0 +1,115 @@
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+  body {
+    width: 90%;
+  }
+
+  .divisor {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .container {
+    margin: 60px 0;
+  }
+
+  .section-secondary {
+    margin: 48px 0;
+  }
+
+  .divisor {
+    margin: 32px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .container {
+    margin: 40px 0;
+  }
+
+  .section-secondary {
+    margin: 32px 0;
+  }
+
+  .text-description,
+  .paragraph,
+  .text-final-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+    line-height: 34px;
+
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .container {
+    margin: 20px 0;
+  }
+
+  .section-secondary {
+    margin: 16px 0;
+  }
+
+  .text-description,
+  .paragraph,
+  .text-final-description {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+  }
+
+  ul li {
+    font-size: 14px;
+    margin-left: 16px;
+  }
+}

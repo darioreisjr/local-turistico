@@ -140,3 +140,7 @@ footer {
   justify-content: center;
   line-height: 150%;
 }
+
+footer img {
+  width: 16px;
+}
