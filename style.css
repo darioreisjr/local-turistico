@@ -1,3 +1,142 @@
-img {
-  border: 16px;
+:root {
+  font-family: "Open Sans", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F4F0;
+  margin: 0 auto;
+  width: 1120px;
+}
+
+.container {
+  margin: 80px 0;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section img {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.section-secondary {
+  margin: 64px 0;
+}
+
+.section-tertiary img {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+h2 {
+  color: #1B1B1B;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h3 {
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 0 0 8px 8px;
+}
+
+h3 + p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.text-headline {
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.text-tertiary {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.text-description, .paragraph, .text-final-description {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.text-description {
+  font-style: italic;
+  text-align: center;
+}
+
+.text-final-description {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+ul li {
+  color: #0C51A7;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 150%;
+  margin-left: 24px;
+}
+
+li::marker {
+  color: #333333;
+}
+
+.list-tertiary li:nth-child(1) {
+  color: #591B98;
+}
+
+.list-tertiary li:nth-child(2) {
+  color: #E5245E;
+}
+
+.list-tertiary li:nth-child(3) {
+  color: #E95E10;
+}
+
+.divisor {
+  border: 1px solid #D9D9D9;
+  margin: 40px 0;
+  width: 1120px;
+}
+
+footer {
+  color: #333333;
+  display: flex;
+  font-family: "Alice", serif;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 8px;
+  justify-content: center;
+  line-height: 150%;
 }
